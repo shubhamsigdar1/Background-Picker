@@ -1,0 +1,87 @@
+
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    font-family: 'Kaushan Script', cursive;
+    /* line-height: 1.5; */
+    background-image: url('../img/69.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;  
+   
+  }
+  html{
+    height:100%;
+  }
+ 
+  .TimeOfTheDay{
+    width: 100%;
+    height: 12%;
+    margin-top: 2rem;
+    /* padding-top:1rem ; */
+    border-bottom: 2px solid white;
+    background: linear-gradient(white 8%,black 16%);
+    /* border-image: linear-gradient(to bottom, white)  */
+  }
+  h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: auto;
+    margin-left: 4%;
+  }
+  
+  .dayView{
+    margin-top: 10%;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    padding: 20px;
+    /* flex-direction: column; */
+    flex-wrap : wrap;
+    border: 0px solid black;
+  }
+  .morning{
+    border: 1px solid black;
+    width: 45%;
+    display: inline-block;
+    overflow:hidden;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+   .afternoon{
+    border: 1px solid black;
+    width: 45%;
+    margin-left: 5%;
+    display: inline-block;
+    overflow:hidden;
+  }
+  .evening{
+    border: 1px solid black;
+    width: 45%;
+    display: inline-block;
+    margin-top: 1%;
+    overflow:hidden;
+  }
+  .night{
+    border: 1px solid black;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 1%;
+    display: inline-block;
+    overflow:hidden;
+  }
